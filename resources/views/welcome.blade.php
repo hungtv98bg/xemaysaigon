@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    <title>Xe máy Sài gòn</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Xe máy Sài gòn</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trang chủ
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class=" nav-item">
+                        <a class="nav-link" href="#features">Tiện ích
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#shop">Cửa hàng
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Về chúng tôi
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Liên hệ
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <div class="wellcome">
+                <div class="wellcomeMsg">
+                    <div class="headTag">Xe máy Sài gòn</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sectionHead">Tiện ích</div>
+                        <hr>
+                        <br>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-wrench" aria-hidden="true"></i>
+                            </div>
+                            <h4>Sửa chữa</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            </div>
+                            <h4>Thời gian</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-cog" aria-hidden="true"></i>
+                            </div>
+                            <h4>Phụ tùng thay thế</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-balance-scale" aria-hidden="true"></i>
+                            </div>
+                            <h4>Lốp xe</h4>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="parallex-section">
+            <div class="parallex" id="parallex-set-1"></div>
+        </section>
+
+        <section id="shop">
+            <div class="container">
+                <div class="sectionHead">Cửa hàng</div>
+                <hr>
+                <br>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="item-box">
+                            <div class="item-box-img">
+                                <img src="{{ URL('assets/images/bikes.png') }}">
+                            </div>
+                            <div class="item-box-head">Xe máy</div>
+                            <button class="btn item-box-btn">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="item-box">
+                            <div class="item-box-img">
+                                <img src="{{ URL('assets/images/helmets.jpg') }}">
+                            </div>
+                            <div class="item-box-head">Mũ bảo hiểm</div>
+                            <button class="btn item-box-btn">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="item-box">
+                            <div class="item-box-img">
+                                <img src="{{ URL('assets/images/wheels.jpg') }}">
+                            </div>
+                            <div class="item-box-head">Lốp xe</div>
+                            <button class="btn item-box-btn">Xem chi tiết</button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="item-box">
+                            <div class="item-box-img">
+                                <img src="{{ URL('assets/images/cloths.jpg') }}">
+                            </div>
+                            <div class="item-box-head">Phụ tùng</div>
+                            <button class="btn item-box-btn">Xem chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="sectionSubHead">Sản phẩm mới</div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="{{ URL('assets/images/new1.jpg') }}" alt="bike">
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    34,500,000 VNĐ/-
+                                    <span style="color:rgb(173, 11, 11)">(39% off)</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="{{ URL('assets/images/new2.jpg') }}" alt="bike">
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    23,700,000 VNĐ/-
+                                    <span style="color:rgb(173, 11, 11)">(27% off)</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="{{ URL('assets/images/new3.jpg') }}" alt="bike">
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    21,000,000 VNĐ/-
+                                    <span style="color:rgb(173, 11, 11)">(32% off)</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="{{ URL('assets/images/new4.jpg') }}" alt="bike">
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    34,500,000 VNĐ/-
+                                    <span style="color:rgb(173, 11, 11)">(45% off)</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="{{ URL('assets/images/new5.jpg') }}" alt="bike">
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    19,000,000 VNĐ/-
+                                    <span style="color:rgb(173, 11, 11)">(17% off)</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="{{ URL('assets/images/new6.jpg') }}" alt="bike">
+                            <div class="card-footer">
+                                <p class="card-text">
+                                    16,900,000 VNĐ/-
+                                    <span style="color:rgb(173, 11, 11)">(21% off)</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="parallex-section">
+            <div class="parallex" id="parallex-set-3"></div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="sectionHead">Về chúng tôi</div>
+                <hr>
+                <br>
+                <p>
+                    Xe máy Sài gòn được thành lập ngày 01 tháng 01 năm 2019.
+                    Hệ thống Xe máy Sài gòn chuyên phân phối sỉ và lẻ xe máy tại khu vực TP.HCM, Bình Dương chính hãng
+                    Honda, Yamaha, xe nhập khẩu:
+                    Tất cả các cửa hàng thuộc Hệ thống Xe máy Sài gòn đều có khu vực bảo trì, sửa chữa, với những trang
+                    thiết bị hiện đại nhất. Ngoài ra, chúng tôi còn sở hữu đội ngũ kỹ thuật viên, tư vấn viên giỏi về
+                    nghiệp vụ chuyên môn, nhiệt tình, tận tâm phục vụ quý khách hàng. Các sản phẩm phân phối sỉ lẻ đều
+                    được cam kết chính hãng 100%, được bảo hành, bảo trì theo đúng quy định của Nhà Máy.
+                    Thế mạnh làm nên thương hiệu Nam Tiến khác biệt chính là: Lấy sự hài lòng của khách hàng làm mục
+                    tiêu kinh doanh nền tảng cho sự phát triển của công ty với phương châm “Không ngừng cải tiến”.
+                    Sự tin tưởng và ủng hộ của quý khách hàng trong suốt thời gian qua là nguồn động viên to lớn trên
+                    bước đường phát triển của chúng tôi. Chúng tôi cam kết sẽ luôn nỗ lực cả về nhân lực, vật lực, không
+                    ngừng phát triển để đưa thương hiệu Xe máy Sài gòn sẽ luôn là sự lựa chọn hàng đầu của khách hàng.
+                </p>
+            </div>
+        </section>
+
+
+        <section class="parallex-section">
+            <div class="parallex" id="parallex-set-2"></div>
+        </section>
+
+
+
+        <section id="contact">
+            <div class="container">
+                <div class="sectionHead">Liên hệ</div>
+                <hr>
+                <br>
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-6 offset-md-2">
+                                <h4 class="sectionSubSubHead text-capitalize">Gửi tin nhắn</h4>
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" required placeholder="Họ và tên*">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" required placeholder="Email*">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" class="form-control" required
+                                            placeholder="Số điện thoại*">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea type="text" class="form-control" required placeholder="Tin nhắn*"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="btn btn-info" type="submit">Send</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="sectionSubSubHead">Địa chỉ liên hệ</h4>
+                        <ul class="list-unstyled">
+                            <li>Hệ thống xe máy Sài gòn.</li>
+                            <li>234 Nguyễn Đình Thi</li>
+                            <li>Quận 3, TPHCM</li>
+                            <li>Pin: 70000</li>
+                            <li>Phone: +38 09582484</li>
+                            <li>Email: xemaysaigon@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            Copyright © 2017-18
+            <span style="color:#f20056;">
+                Xe máy sài gòn.
+            </span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
